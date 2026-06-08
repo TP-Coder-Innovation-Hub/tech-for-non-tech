@@ -1,7 +1,4 @@
 # AI in Your Business
-
-`[Entry]`
-
 ## Where AI Helps
 
 AI excels at tasks that involve pattern recognition, repetition, and scale. Here are areas where AI delivers clear business value today:

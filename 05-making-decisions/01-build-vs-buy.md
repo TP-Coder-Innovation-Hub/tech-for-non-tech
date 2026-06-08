@@ -1,12 +1,11 @@
 # Build vs Buy
-
-`[Entry]`
-
 ## The Decision Framework
 
 Every time your organization needs a new capability, you face the same choice: build it yourself, buy an existing solution, or hire someone to handle it.
 
 This is not a technical decision. It is a business decision with four dimensions:
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — build vs buy vs hire decision framework uniqueness cost time control
 
 | Dimension | Build | Buy (SaaS / Vendor) | Hire (Agency / Contractor) |
 |---|---|---|---|

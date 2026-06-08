@@ -1,7 +1,4 @@
 # What Is an API?
-
-`[Entry]`
-
 ## The Waiter Analogy
 
 An Application Programming Interface (API) is a waiter.
@@ -9,6 +6,8 @@ An Application Programming Interface (API) is a waiter.
 You sit at a table. You do not walk into the kitchen. You do not cook the food yourself. You look at a menu, tell the waiter what you want, and the waiter communicates your order to the kitchen. When the food is ready, the waiter brings it back to you.
 
 You never need to know how the kitchen operates. You do not need to know the oven's temperature, the chef's schedule, or where the ingredients are stored. You just order from the menu and receive your food.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — API waiter analogy your system waiter their system kitchen
 
 ```mermaid
 sequenceDiagram

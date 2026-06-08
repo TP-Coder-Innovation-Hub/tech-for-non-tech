@@ -1,10 +1,9 @@
 # Security Basics
-
-`[Entry]`
-
 ## The Office Building Analogy
 
 Think of digital security the same way you think about securing an office building:
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — security layers encryption authentication authorization firewall logging building analogy
 
 | Digital Concept | Physical Equivalent | What It Does |
 |---|---|---|

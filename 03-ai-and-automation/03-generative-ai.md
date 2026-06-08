@@ -1,7 +1,4 @@
 # Generative AI
-
-`[Entry]`
-
 ## Text Prediction on Steroids
 
 Large Language Models (LLMs) like ChatGPT and Claude work on a surprisingly simple principle: predict the next word.
@@ -9,6 +6,8 @@ Large Language Models (LLMs) like ChatGPT and Claude work on a surprisingly simp
 Open your phone's keyboard and start typing "The weather is." The keyboard suggests "nice" or "cold" or "great." It predicts the next word based on patterns it has seen before.
 
 Now imagine that same prediction engine, but trained on billions of pages of text -- books, articles, websites, conversations. Instead of predicting one word, it predicts hundreds or thousands in sequence. That is an LLM.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — LLM next word prediction autocomplete scaled to billions of pages
 
 It does not "understand" what it writes. It generates statistically plausible sequences of words based on patterns in its training data. Most of the time, those sequences are coherent and useful. Sometimes they are confidently wrong.
 

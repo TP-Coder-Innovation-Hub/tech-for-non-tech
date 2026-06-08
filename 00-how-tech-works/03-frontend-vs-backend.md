@@ -1,10 +1,9 @@
 # Frontend vs Backend
-
-`[Entry]`
-
 ## The Restaurant Analogy (Continued)
 
 Every piece of software has two sides. The **frontend** is the dining room -- what customers see, touch, and interact with. The **backend** is the kitchen -- where the actual work happens behind closed doors.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — frontend backend restaurant analogy dining room kitchen database pantry
 
 | Concept | Restaurant | Software |
 |---|---|---|

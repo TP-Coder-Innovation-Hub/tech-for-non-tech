@@ -1,7 +1,4 @@
 # Scaling
-
-`[Entry]`
-
 ## The Cashier Analogy
 
 Imagine you run a grocery store with one cashier.
@@ -15,6 +12,8 @@ You have two options:
 **Option A: Make the cashier faster.** Give them a better scanner, a faster register, more training. This is **vertical scaling** -- making one machine more powerful.
 
 **Option B: Open more checkout lanes.** Hire ten cashiers. Now ten customers can be served simultaneously. This is **horizontal scaling** -- adding more machines to share the load.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — vertical scaling bigger machine vs horizontal scaling more machines cashiers
 
 ```mermaid
 flowchart TB
@@ -47,6 +46,8 @@ flowchart TB
 Modern cloud systems use **auto-scaling**: they automatically add or remove machines based on traffic.
 
 Like a store manager who watches the line and calls in extra cashiers when it gets long, then sends them home when the rush is over. You pay for ten cashiers only during the two-hour rush. The rest of the day, you pay for one.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — auto-scaling traffic load add remove servers dynamically
 
 This is why cloud economics are attractive for variable workloads. E-commerce sites see traffic spikes during sales. Tax filing software peaks in April. Social media platforms surge during events. Auto-scaling means you handle the peak without paying for it year-round.
 

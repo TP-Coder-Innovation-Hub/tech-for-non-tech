@@ -1,7 +1,4 @@
 # Reading Technical Proposals
-
-`[Entry]`
-
 ## What a Proposal Should Contain
 
 A technical proposal is a decision document. It should answer: "What are we doing, why, what are the alternatives, what does it cost, and what are the risks?"

@@ -1,12 +1,11 @@
 # How the Internet Works
-
-`[Entry]`
-
 ## The Restaurant Analogy
 
 Think of using the internet like ordering food at a restaurant.
 
 You (the **browser**) sit at a table and look at a menu. You tell the waiter what you want. The waiter (the **network**) carries your order to the kitchen. The kitchen (the **server**) prepares your meal and hands it back to the waiter. The waiter delivers it to your table.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — internet request response browser network server restaurant analogy
 
 ```mermaid
 sequenceDiagram

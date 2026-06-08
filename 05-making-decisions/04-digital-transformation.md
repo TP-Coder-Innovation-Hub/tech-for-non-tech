@@ -1,7 +1,4 @@
 # Digital Transformation
-
-`[Entry]`
-
 ## What It Actually Means
 
 Digital transformation is not "use more technology." It is changing how work gets done.
@@ -27,6 +24,8 @@ flowchart LR
 ## Why Most Transformations Fail
 
 Research consistently shows that 70%+ of digital transformation initiatives fail to achieve their goals. The reason is almost never the technology:
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — digital transformation failure pie chart culture process sponsorship
 
 **Culture resistance.** People resist changes that threaten their routine, their expertise, or their autonomy. A new system that makes someone's hard-won knowledge obsolete will be sabotaged -- not maliciously, but through avoidance, workarounds, and passive non-adoption.
 

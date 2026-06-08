@@ -1,7 +1,4 @@
 # What Is a Database?
-
-`[Entry]`
-
 ## The Digital Filing Cabinet
 
 A database is a structured digital filing cabinet. It stores information so you can find it, update it, and analyze it later.
@@ -33,6 +30,8 @@ Examples: PostgreSQL, MySQL, SQL Server.
 ### NoSQL Databases (Flexible Structure)
 
 Like a box where you toss documents of different shapes. One document might have five fields, the next might have twelve. No strict rules about format.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — relational vs NoSQL database strict filing cabinet vs flexible box
 
 Examples: MongoDB, DynamoDB, Cassandra.
 

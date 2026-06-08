@@ -1,7 +1,4 @@
 # Understanding Tech Debt
-
-`[Entry]`
-
 ## The Building Maintenance Analogy
 
 Imagine you manage an office building. The air conditioning has been making a strange noise for months. It still works, so you keep putting off the repair. After all, there are more urgent things to spend money on.
@@ -22,6 +19,8 @@ flowchart LR
 ```
 
 The cycle is self-reinforcing. Debt slows you down, which creates pressure for more shortcuts, which creates more debt.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — technical debt vicious cycle shortcut ship faster debt slow down more shortcuts
 
 ## Why Tech Debt Exists
 

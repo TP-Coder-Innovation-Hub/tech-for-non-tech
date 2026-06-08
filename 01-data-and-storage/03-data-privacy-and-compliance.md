@@ -1,7 +1,4 @@
 # Data Privacy and Compliance
-
-`[Entry]`
-
 ## Why It Matters
 
 Data privacy is not just a legal checkbox. It is a matter of trust, reputation, and survival.

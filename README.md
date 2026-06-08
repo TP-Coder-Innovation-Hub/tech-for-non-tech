@@ -18,7 +18,7 @@ After reading this guide, you will be able to:
 
 Each section is self-contained. Read in order, or jump to what you need. Every concept is explained through analogy first, then connected to a business application.
 
-Every article is marked `[Entry]` -- no prior technical knowledge is assumed.
+No prior technical knowledge is assumed.
 
 ## Contents
 

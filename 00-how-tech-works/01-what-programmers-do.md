@@ -1,7 +1,4 @@
 # What Programmers Do
-
-`[Entry]`
-
 ## The Recipe Analogy
 
 A programmer writes instructions for a computer. Think of it like writing a recipe.

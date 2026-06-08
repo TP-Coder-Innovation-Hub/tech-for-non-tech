@@ -1,12 +1,11 @@
 # Machine Learning Concepts
-
-`[Entry]`
-
 ## The Weather Prediction Analogy
 
 How do meteorologists predict the weather? They study decades of historical data: temperature, pressure, humidity, wind patterns. They look for correlations: "When these conditions appeared in the past, rain followed 73% of the time within 24 hours."
 
 Machine learning works the same way, but automated and at massive scale.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — machine learning training loop historical data model prediction new situation
 
 ```mermaid
 flowchart LR
@@ -48,6 +47,8 @@ The result is a **model**: a mathematical representation of the patterns it disc
 **Overfitting.** The model memorizes the training data instead of learning general patterns. Like a student who memorizes past exam answers but cannot solve new problems. The model performs perfectly on training data but fails in the real world.
 
 **Underfitting.** The model is too simple to capture the patterns. Like predicting weather using only temperature, ignoring humidity, pressure, and wind. The model performs poorly everywhere.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — overfitting memorize training vs underfitting too simple curve fitting
 
 **Data quality.** The model is only as good as its training data. If the data is incomplete, biased, or wrong, the model learns the wrong patterns. "Garbage in, garbage out."
 

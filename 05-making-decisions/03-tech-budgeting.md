@@ -1,7 +1,4 @@
 # Tech Budgeting
-
-`[Entry]`
-
 ## Where the Money Goes
 
 Technology spending falls into four categories. Most organizations underestimate at least two of them:

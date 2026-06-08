@@ -1,7 +1,4 @@
 # What Is the Cloud?
-
-`[Entry]`
-
 ## The Office Space Analogy
 
 Imagine you need an office for your business. You have two options:
@@ -11,6 +8,8 @@ Imagine you need an office for your business. You have two options:
 **Rent a coworking space.** You pay monthly for what you use. Need more desks next month? Add them. Need fewer? Remove them. The landlord handles maintenance, security, and utilities. You focus on your business.
 
 The cloud is coworking for computers.
+
+> 🖼️ **[IMAGE_PLACEHOLDER]** — cloud analogy buy building vs rent coworking space monthly
 
 Instead of buying servers and keeping them in a closet, you rent computing power from a provider. They handle the hardware, the cooling, the electricity, the physical security. You get a virtual machine, storage, or a service, and you pay for what you use.
 

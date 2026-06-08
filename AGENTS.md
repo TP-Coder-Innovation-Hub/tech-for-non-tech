@@ -8,7 +8,7 @@ The content must be publication-quality, plain-language, and immediately useful.
 
 ## Audience Levels
 
-All content in this repository uses the `[Entry]` badge. No prior technical knowledge is assumed. Readers are accomplished professionals learning a new domain.
+All content in this repository assumes no prior technical knowledge. Readers are accomplished professionals learning a new domain.
 
 ## Repository Structure
 

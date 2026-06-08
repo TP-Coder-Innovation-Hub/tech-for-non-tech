@@ -1,7 +1,4 @@
 # Vendor Evaluation
-
-`[Entry]`
-
 ## The Due Diligence Framework
 
 Choosing a vendor is like choosing a business partner. You are trusting them with data, operations, and often customer experience. The evaluation should be as rigorous as any partnership decision.

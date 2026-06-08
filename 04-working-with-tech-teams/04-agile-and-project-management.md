@@ -1,7 +1,4 @@
 # Agile and Project Management
-
-`[Entry]`
-
 ## The Renovation Analogy
 
 You need to renovate a house. Two approaches:

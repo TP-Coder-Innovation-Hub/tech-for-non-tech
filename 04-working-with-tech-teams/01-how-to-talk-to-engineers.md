@@ -1,7 +1,4 @@
 # How to Talk to Engineers
-
-`[Entry]`
-
 ## Describe Outcomes, Not Solutions
 
 The most common communication mistake: telling engineers *how* to solve a problem instead of describing *what* the problem is.
