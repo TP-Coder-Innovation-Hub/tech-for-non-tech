@@ -3,7 +3,16 @@
 
 Every piece of software has two sides. The **frontend** is the dining room -- what customers see, touch, and interact with. The **backend** is the kitchen -- where the actual work happens behind closed doors.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — frontend backend restaurant analogy dining room kitchen database pantry
+```mermaid
+graph LR
+    subgraph "Restaurant"
+        DINING["Dining Room\n(Frontend)\nWhat you see & interact with"]
+        KITCHEN["Kitchen\n(Backend)\nWhere work happens"]
+        PANTRY["Pantry\n(Database)\nWhere ingredients stored"]
+    end
+    DINING <-->|"order/serve"| KITCHEN
+    KITCHEN <-->|"fetch/store"| PANTRY
+```
 
 | Concept | Restaurant | Software |
 |---|---|---|

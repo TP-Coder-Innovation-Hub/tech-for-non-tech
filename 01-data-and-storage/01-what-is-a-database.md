@@ -31,7 +31,17 @@ Examples: PostgreSQL, MySQL, SQL Server.
 
 Like a box where you toss documents of different shapes. One document might have five fields, the next might have twelve. No strict rules about format.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — relational vs NoSQL database strict filing cabinet vs flexible box
+```mermaid
+graph LR
+    subgraph "Relational (SQL)"
+        R1["Strict structure\nTables + Rows + Columns"]
+        R2["Like a filing cabinet\nwith labeled folders"]
+    end
+    subgraph "NoSQL"
+        N1["Flexible structure\nDocuments / Key-Value"]
+        N2["Like a big box\nthrow anything in"]
+    end
+```
 
 Examples: MongoDB, DynamoDB, Cassandra.
 

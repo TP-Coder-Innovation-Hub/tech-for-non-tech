@@ -5,7 +5,19 @@ Think of using the internet like ordering food at a restaurant.
 
 You (the **browser**) sit at a table and look at a menu. You tell the waiter what you want. The waiter (the **network**) carries your order to the kitchen. The kitchen (the **server**) prepares your meal and hands it back to the waiter. The waiter delivers it to your table.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — internet request response browser network server restaurant analogy
+```mermaid
+sequenceDiagram
+    participant You as You (Customer)
+    participant DNS as DNS (Phonebook)
+    participant NET as Network (Waiter)
+    participant SRV as Server (Kitchen)
+    You->>DNS: Where is google.com?
+    DNS-->>You: 142.250.80.46
+    You->>NET: GET me google.com
+    NET->>SRV: Order: homepage
+    SRV-->>NET: Here's the page
+    NET-->>You: Display webpage
+```
 
 ```mermaid
 sequenceDiagram

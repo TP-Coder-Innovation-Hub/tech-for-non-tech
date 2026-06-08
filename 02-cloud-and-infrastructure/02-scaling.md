@@ -13,7 +13,16 @@ You have two options:
 
 **Option B: Open more checkout lanes.** Hire ten cashiers. Now ten customers can be served simultaneously. This is **horizontal scaling** -- adding more machines to share the load.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — vertical scaling bigger machine vs horizontal scaling more machines cashiers
+```mermaid
+graph TD
+    subgraph "Vertical (Bigger Machine)"
+        V1["Small server"] --> V2["Bigger server\nmore RAM, CPU"]
+    end
+    subgraph "Horizontal (More Machines)"
+        H1["1 Server"] --> H2["3 Servers"]
+        H2 --> H3["10 Servers"]
+    end
+```
 
 ```mermaid
 flowchart TB
@@ -47,7 +56,17 @@ Modern cloud systems use **auto-scaling**: they automatically add or remove mach
 
 Like a store manager who watches the line and calls in extra cashiers when it gets long, then sends them home when the rush is over. You pay for ten cashiers only during the two-hour rush. The rest of the day, you pay for one.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — auto-scaling traffic load add remove servers dynamically
+```mermaid
+flowchart LR
+    MON["Monitor Traffic"] --> Q{High load?}
+    Q -->|Yes| ADD["Add servers"]
+    Q -->|No| Q2{Low load?}
+    Q2 -->|Yes| REMOVE["Remove servers"]
+    Q2 -->|No| KEEP["Keep current"]
+    ADD --> MON
+    REMOVE --> MON
+    KEEP --> MON
+```
 
 This is why cloud economics are attractive for variable workloads. E-commerce sites see traffic spikes during sales. Tax filing software peaks in April. Social media platforms surge during events. Auto-scaling means you handle the peak without paying for it year-round.
 

@@ -3,7 +3,16 @@
 
 Artificial Intelligence is not magic. It is pattern recognition applied at a scale no human could manage.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — AI pattern recognition training data examples to model prediction
+```mermaid
+flowchart LR
+    subgraph "Training"
+        DATA["Training Data\n(10,000 cat photos)"] --> MODEL["AI Model\n(learns patterns)"]
+    end
+    subgraph "Prediction"
+        NEW["New Photo"] --> MODEL
+        MODEL --> RESULT["'This is a cat: 95%'"]
+    end
+```
 
 Imagine you hire a new employee to approve loan applications. On day one, they know nothing. You give them ten thousand past applications, each labeled "approved" or "rejected." Over weeks, they start noticing patterns: applicants with stable income and low debt tend to get approved. Those with recent bankruptcies tend to get rejected.
 

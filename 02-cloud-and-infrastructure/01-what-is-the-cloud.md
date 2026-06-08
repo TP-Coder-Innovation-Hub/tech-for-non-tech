@@ -9,7 +9,19 @@ Imagine you need an office for your business. You have two options:
 
 The cloud is coworking for computers.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — cloud analogy buy building vs rent coworking space monthly
+```mermaid
+graph LR
+    subgraph "Buy a Building"
+        B1["Huge upfront cost"]
+        B2["You fix everything"]
+        B3["Fixed space"]
+    end
+    subgraph "Rent Coworking"
+        C1["Monthly fee"]
+        C2["Facilities managed"]
+        C3["Scale seats up/down"]
+    end
+```
 
 Instead of buying servers and keeping them in a closet, you rent computing power from a provider. They handle the hardware, the cooling, the electricity, the physical security. You get a virtual machine, storage, or a service, and you pay for what you use.
 

@@ -5,7 +5,13 @@ How do meteorologists predict the weather? They study decades of historical data
 
 Machine learning works the same way, but automated and at massive scale.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — machine learning training loop historical data model prediction new situation
+```mermaid
+flowchart LR
+    HIST["Historical Data\nPast house prices"] --> TRAIN["Training\nModel learns patterns"]
+    TRAIN --> M["Trained Model"]
+    NEW["New Input\nHouse: 3BR, 120sqm"] --> M
+    M --> PRED["Prediction\nPrice: $350K"]
+```
 
 ```mermaid
 flowchart LR
@@ -48,7 +54,19 @@ The result is a **model**: a mathematical representation of the patterns it disc
 
 **Underfitting.** The model is too simple to capture the patterns. Like predicting weather using only temperature, ignoring humidity, pressure, and wind. The model performs poorly everywhere.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — overfitting memorize training vs underfitting too simple curve fitting
+```mermaid
+graph LR
+    subgraph "Underfitting"
+        U["Model too simple\nMisses patterns\nStraight line through curve"]
+    end
+    subgraph "Good Fit"
+        G["Model captures pattern\nGeneralizes well"]
+    end
+    subgraph "Overfitting"
+        O["Model memorizes noise\nFails on new data\nWiggly line through every point"]
+    end
+    U --> G --> O
+```
 
 **Data quality.** The model is only as good as its training data. If the data is incomplete, biased, or wrong, the model learns the wrong patterns. "Garbage in, garbage out."
 

@@ -20,7 +20,14 @@ flowchart LR
 
 The cycle is self-reinforcing. Debt slows you down, which creates pressure for more shortcuts, which creates more debt.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — technical debt vicious cycle shortcut ship faster debt slow down more shortcuts
+```mermaid
+flowchart LR
+    DEADLINE["Deadline pressure"] --> SHORTCUT["Take shortcut\n(tech debt)"]
+    SHORTCUT --> SHIP["Ship faster ✓"]
+    SHIP --> SLOW["Code gets harder to change\n(debt accrues)"]
+    SLOW --> SLOWER["Features take longer"]
+    SLOWER --> DEADLINE
+```
 
 ## Why Tech Debt Exists
 

@@ -7,7 +7,17 @@ You sit at a table. You do not walk into the kitchen. You do not cook the food y
 
 You never need to know how the kitchen operates. You do not need to know the oven's temperature, the chef's schedule, or where the ingredients are stored. You just order from the menu and receive your food.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — API waiter analogy your system waiter their system kitchen
+```mermaid
+sequenceDiagram
+    participant Y as Your App
+    participant API as API (Waiter)
+    participant T as Their System (Kitchen)
+    Y->>API: I need weather data for Tokyo
+    API->>T: Get weather: Tokyo
+    T-->>API: {temp: 22, sunny}
+    API-->>Y: Here's the weather data
+    Note over Y,T: You don't need to know how the kitchen works
+```
 
 ```mermaid
 sequenceDiagram

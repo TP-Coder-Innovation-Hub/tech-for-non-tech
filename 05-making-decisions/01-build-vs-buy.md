@@ -5,7 +5,16 @@ Every time your organization needs a new capability, you face the same choice: b
 
 This is not a technical decision. It is a business decision with four dimensions:
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — build vs buy vs hire decision framework uniqueness cost time control
+```mermaid
+flowchart TD
+    Start[Need software?] --> Q1{Core to your business?}
+    Q1 -->|Yes, unique| BUILD["Build Custom\nFull control, high cost"]
+    Q1 -->|No, standard| Q2{Good SaaS exists?}
+    Q2 -->|Yes| BUY["Buy SaaS\nFast, lower risk"]
+    Q2 -->|No| Q3{Need ongoing customization?}
+    Q3 -->|Yes| HIRE["Hire Team\nLong-term investment"]
+    Q3 -->|No| BUY
+```
 
 | Dimension | Build | Buy (SaaS / Vendor) | Hire (Agency / Contractor) |
 |---|---|---|---|

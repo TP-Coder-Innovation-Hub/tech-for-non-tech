@@ -3,7 +3,14 @@
 
 Think of digital security the same way you think about securing an office building:
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — security layers encryption authentication authorization firewall logging building analogy
+```mermaid
+graph TD
+    OUTSIDE["Outside\n(Internet)"] --> FW["Firewall\n(Building gate)"]
+    FW --> AUTH["Authentication\n(ID card swipe)"]
+    AUTH --> AUTHZ["Authorization\n(Which rooms can access?)"]
+    AUTHZ --> ENC["Encryption\n(Locked cabinets)"]
+    ENC --> LOG["Audit Logging\n(Security cameras)"]
+```
 
 | Digital Concept | Physical Equivalent | What It Does |
 |---|---|---|

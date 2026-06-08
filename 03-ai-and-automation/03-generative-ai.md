@@ -7,7 +7,15 @@ Open your phone's keyboard and start typing "The weather is." The keyboard sugge
 
 Now imagine that same prediction engine, but trained on billions of pages of text -- books, articles, websites, conversations. Instead of predicting one word, it predicts hundreds or thousands in sequence. That is an LLM.
 
-> 🖼️ **[IMAGE_PLACEHOLDER]** — LLM next word prediction autocomplete scaled to billions of pages
+```mermaid
+flowchart LR
+    INPUT["'The weather today is'"] --> LLM["LLM\n(billions of parameters)"]
+    LLM --> P1["'sunny': 60%"]
+    LLM --> P2["'cloudy': 25%"]
+    LLM --> P3["'rainy': 15%"]
+    P1 --> PICK["Pick 'sunny'"]
+    PICK --> LOOP["Repeat for next word..."]
+```
 
 It does not "understand" what it writes. It generates statistically plausible sequences of words based on patterns in its training data. Most of the time, those sequences are coherent and useful. Sometimes they are confidently wrong.
 
