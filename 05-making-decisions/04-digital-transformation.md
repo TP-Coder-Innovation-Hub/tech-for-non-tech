@@ -7,6 +7,8 @@ Buying collaboration software does not transform your organization if people sti
 
 True digital transformation starts from problems, not tools:
 
+> **Diagram:** Continuous improvement cycle — identify a problem, redesign the process, choose technology, implement and train, measure results, then repeat.
+
 ```mermaid
 flowchart LR
     A[Identify a Problem] --> B[Redesign the Process]
