@@ -3,6 +3,8 @@
 
 Think of digital security the same way you think about securing an office building:
 
+> **Diagram:** Layered security model showing the progression from internet traffic through firewall, authentication, authorization, encryption, and audit logging.
+
 ```mermaid
 graph TD
     OUTSIDE["Outside\n(Internet)"] --> FW["Firewall\n(Building gate)"]
