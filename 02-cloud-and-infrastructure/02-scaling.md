@@ -13,6 +13,8 @@ You have two options:
 
 **Option B: Open more checkout lanes.** Hire ten cashiers. Now ten customers can be served simultaneously. This is **horizontal scaling** -- adding more machines to share the load.
 
+> **Diagram:** Vertical scaling upgrades one server with more resources, while horizontal scaling adds more servers to distribute load.
+
 ```mermaid
 graph TD
     subgraph "Vertical (Bigger Machine)"
