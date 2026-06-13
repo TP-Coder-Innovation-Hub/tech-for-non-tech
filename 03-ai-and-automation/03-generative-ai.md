@@ -7,6 +7,8 @@ Open your phone's keyboard and start typing "The weather is." The keyboard sugge
 
 Now imagine that same prediction engine, but trained on billions of pages of text -- books, articles, websites, conversations. Instead of predicting one word, it predicts hundreds or thousands in sequence. That is an LLM.
 
+> **Diagram:** How an LLM predicts the next word by assigning probabilities to candidate tokens and selecting the highest-scoring one.
+
 ```mermaid
 flowchart LR
     INPUT["'The weather today is'"] --> LLM["LLM\n(billions of parameters)"]
