@@ -7,6 +7,8 @@ You need to renovate a house. Two approaches:
 
 **Agile (Iterative):** Renovate one room at a time. Start with the most important room (the kitchen). Use it. Get feedback. Adjust the plan for the next room based on what you learned. The house is livable throughout the process.
 
+> **Diagram:** Waterfall delivers everything at the end versus Agile delivering working slices iteratively with feedback loops.
+
 ```mermaid
 flowchart LR
     subgraph Waterfall["Waterfall"]
