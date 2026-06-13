@@ -5,6 +5,8 @@ Every time your organization needs a new capability, you face the same choice: b
 
 This is not a technical decision. It is a business decision with four dimensions:
 
+> **Diagram:** Decision tree for choosing whether to build custom software, buy a SaaS product, or hire a team based on business needs.
+
 ```mermaid
 flowchart TD
     Start[Need software?] --> Q1{Core to your business?}
