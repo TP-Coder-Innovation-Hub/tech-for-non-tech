@@ -21,6 +21,8 @@ sequenceDiagram
     Note over Y,T: You don't need to know how the kitchen works
 ```
 
+> **Diagram:** A system requests an exchange rate through an API, the API forwards to the provider, and the result is returned.
+
 ```mermaid
 sequenceDiagram
     participant You as Your System
