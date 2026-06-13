@@ -31,6 +31,8 @@ Examples: PostgreSQL, MySQL, SQL Server.
 
 Like a box where you toss documents of different shapes. One document might have five fields, the next might have twelve. No strict rules about format.
 
+> **Diagram:** Comparison of relational (SQL) databases with strict table structure versus NoSQL databases with flexible document storage.
+
 ```mermaid
 graph LR
     subgraph "Relational (SQL)"
