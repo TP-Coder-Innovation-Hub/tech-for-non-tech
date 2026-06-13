@@ -15,6 +15,8 @@ flowchart LR
     M --> PRED["Prediction\nPrice: $350K"]
 ```
 
+> **Diagram:** Simplified machine learning pipeline from historical data through training to a model that makes predictions on new situations.
+
 ```mermaid
 flowchart LR
     A[Historical Data] --> B[Training Process]
