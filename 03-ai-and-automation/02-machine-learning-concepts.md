@@ -5,6 +5,8 @@ How do meteorologists predict the weather? They study decades of historical data
 
 Machine learning works the same way, but automated and at massive scale.
 
+> **Diagram:** Historical data trains a model, which then accepts new inputs (like house details) and produces predictions (like price estimates).
+
 ```mermaid
 flowchart LR
     HIST["Historical Data\nPast house prices"] --> TRAIN["Training\nModel learns patterns"]
