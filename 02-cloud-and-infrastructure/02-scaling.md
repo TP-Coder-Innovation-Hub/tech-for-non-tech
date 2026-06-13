@@ -26,6 +26,8 @@ graph TD
     end
 ```
 
+> **Diagram:** Vertical scaling shows a single cashier getting progressively faster, while horizontal scaling shows multiple cashiers working in parallel.
+
 ```mermaid
 flowchart TB
     subgraph Vertical["Vertical Scaling (Bigger Machine)"]
