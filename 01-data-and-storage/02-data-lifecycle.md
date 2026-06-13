@@ -3,6 +3,8 @@
 
 Data flows through an organization the way books flow through a library.
 
+> **Diagram:** Linear flow of data through five stages: Acquire, Catalog, Lend, Review, and Archive.
+
 ```mermaid
 flowchart LR
     A[Acquire] --> B[Catalog]
