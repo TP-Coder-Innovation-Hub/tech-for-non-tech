@@ -21,6 +21,8 @@ sequenceDiagram
     NET-->>You: Display webpage
 ```
 
+> **Diagram:** Simplified restaurant analogy showing a browser ordering a homepage through the network to the server and receiving it back.
+
 ```mermaid
 sequenceDiagram
     participant You as You (Browser)
