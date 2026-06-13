@@ -58,6 +58,8 @@ The result is a **model**: a mathematical representation of the patterns it disc
 
 **Underfitting.** The model is too simple to capture the patterns. Like predicting weather using only temperature, ignoring humidity, pressure, and wind. The model performs poorly everywhere.
 
+> **Diagram:** Comparison of underfitting (model too simple), good fit (captures patterns), and overfitting (memorizes noise and fails on new data).
+
 ```mermaid
 graph LR
     subgraph "Underfitting"
