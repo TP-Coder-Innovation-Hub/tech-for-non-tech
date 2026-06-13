@@ -27,6 +27,8 @@ flowchart LR
 
 Research consistently shows that 70%+ of digital transformation initiatives fail to achieve their goals. The reason is almost never the technology:
 
+> **Diagram:** Pie chart showing why digital transformations fail — culture resistance 35%, no executive sponsorship 25%, broken processes 20%, wrong technology 10%, budget overrun 10%.
+
 ```mermaid
 pie title Why Digital Transformations Fail
     "Culture resistance" : 35
