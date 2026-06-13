@@ -7,6 +7,8 @@ You sit at a table. You do not walk into the kitchen. You do not cook the food y
 
 You never need to know how the kitchen operates. You do not need to know the oven's temperature, the chef's schedule, or where the ingredients are stored. You just order from the menu and receive your food.
 
+> **Diagram:** An app sends a weather data request through an API to an external system, which returns structured weather data.
+
 ```mermaid
 sequenceDiagram
     participant Y as Your App
