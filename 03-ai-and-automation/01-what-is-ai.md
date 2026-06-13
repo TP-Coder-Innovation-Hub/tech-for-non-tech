@@ -3,6 +3,8 @@
 
 Artificial Intelligence is not magic. It is pattern recognition applied at a scale no human could manage.
 
+> **Diagram:** AI training pipeline where labeled training data feeds into a model, which then classifies new inputs with a confidence score.
+
 ```mermaid
 flowchart LR
     subgraph "Training"
