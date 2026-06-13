@@ -9,6 +9,8 @@ Imagine you need an office for your business. You have two options:
 
 The cloud is coworking for computers.
 
+> **Diagram:** Comparison of buying a building (on-premise servers) versus renting coworking space (cloud computing).
+
 ```mermaid
 graph LR
     subgraph "Buy a Building"
