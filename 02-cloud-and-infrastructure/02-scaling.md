@@ -60,6 +60,8 @@ Modern cloud systems use **auto-scaling**: they automatically add or remove mach
 
 Like a store manager who watches the line and calls in extra cashiers when it gets long, then sends them home when the rush is over. You pay for ten cashiers only during the two-hour rush. The rest of the day, you pay for one.
 
+> **Diagram:** Auto-scaling loop that monitors traffic and dynamically adds, removes, or keeps servers based on load level.
+
 ```mermaid
 flowchart LR
     MON["Monitor Traffic"] --> Q{High load?}
