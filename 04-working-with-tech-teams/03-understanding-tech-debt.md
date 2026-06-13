@@ -22,6 +22,8 @@ flowchart LR
 
 The cycle is self-reinforcing. Debt slows you down, which creates pressure for more shortcuts, which creates more debt.
 
+> **Diagram:** Tech debt feedback loop — deadline pressure leads to shortcuts, faster shipping, harder-to-change code, slower features, and back to deadline pressure.
+
 ```mermaid
 flowchart LR
     DEADLINE["Deadline pressure"] --> SHORTCUT["Take shortcut\n(tech debt)"]
