@@ -9,6 +9,8 @@ That is technical debt.
 
 In software, tech debt is the accumulated cost of shortcuts taken earlier. A quick fix instead of a proper solution. A copy-paste instead of a shared component. A temporary workaround that became permanent. Each shortcut saves time now but creates a maintenance burden later.
 
+> **Diagram:** Vicious cycle where shortcuts speed up shipping initially but accumulate debt that slows future work, leading to more shortcuts.
+
 ```mermaid
 flowchart LR
     A[Shortcut Taken] --> B[Ship Faster Now]
