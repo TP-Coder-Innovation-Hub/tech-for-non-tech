@@ -3,6 +3,8 @@
 
 Every piece of software has two sides. The **frontend** is the dining room -- what customers see, touch, and interact with. The **backend** is the kitchen -- where the actual work happens behind closed doors.
 
+> **Diagram:** The restaurant analogy mapped to software — dining room (frontend), kitchen (backend), and pantry (database) connected by order and data flows.
+
 ```mermaid
 graph LR
     subgraph "Restaurant"
