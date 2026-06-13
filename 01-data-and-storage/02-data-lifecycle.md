@@ -25,6 +25,8 @@ flowchart LR
 
 The journey from raw data to useful information is called a **data pipeline**. Raw data comes in messy -- timestamps in different formats, missing fields, duplicates. The pipeline cleans, transforms, and delivers data to the right place in the right format.
 
+> **Diagram:** Data pipeline flowing from creation through storage, processing, analysis, and archival to cold storage.
+
 ```mermaid
 flowchart LR
     CREATE["Create\nData is born"] --> STORE["Store\nSaved somewhere"]
